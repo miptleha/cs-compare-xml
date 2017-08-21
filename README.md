@@ -2,7 +2,6 @@
 User friendly xml comparison class
 
 ## Features
-
 -   extend functionality of XNode.DeepEquals method
 -   not just say, that xml are equal or different, but say where is difference
 -   support namespaces
@@ -12,7 +11,6 @@ User friendly xml comparison class
 -   very useful when need to check serialization/deserialization to xml
 
 ## How to use
-
 ```csharp
 string xml1 = “<a></a>”;
 string xml2 = “\<b/\>”;
