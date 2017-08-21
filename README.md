@@ -16,7 +16,7 @@ string xml1 = "<a></a>";
 string xml2 = "<b/>";
 try
 {
-  CompareXE.CompareDeep(xml1, xml2);
+  CompareXElements.CompareDeep(xml1, xml2);
   Console.WriteLine(”xml are equal”);
 }
 catch (CompareXElementException ex)
