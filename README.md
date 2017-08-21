@@ -12,16 +12,16 @@ User friendly xml comparison class
 
 ## How to use
 ```csharp
-string xml1 = “<a></a>”;
-string xml2 = “\<b/\>”;
+string xml1 = "<a></a>";
+string xml2 = "<b/\>";
 try
 {
-CompareXE.CompareDeep(xml1, xml2);
-Console.WriteLine(”xml are equal”);
+  CompareXE.CompareDeep(xml1, xml2);
+  Console.WriteLine(”xml are equal”);
 }
 catch (CompareXElementException ex)
 {
-Console.WriteLine(”xml are different: ” + ex.Message);
+  Console.WriteLine(”xml are different: ” + ex.Message);
 }
 ```
  
