@@ -1,7 +1,7 @@
-#csharp-compare-xml
+# csharp-compare-xml
 User friendly xml comparison class
 
-##Features
+## Features
 
 -   extend functionality of XNode.DeepEquals method
 -   not just say, that xml are equal or different, but say where is difference
@@ -11,7 +11,7 @@ User friendly xml comparison class
 -   input xml in form of text or as XElement
 -   very useful when need to check serialization/deserialization to xml
 
-##How to use
+## How to use
 
 ```csharp
 string xml1 = “<a></a>”;
