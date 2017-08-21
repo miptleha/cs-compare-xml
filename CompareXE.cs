@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace CompareXE
 {
-    public class CompareXElements
+    public class CompareXE
     {
         /// <summary>
         /// Deep comparison of two xml in form of string.

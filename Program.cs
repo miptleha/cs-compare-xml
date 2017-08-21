@@ -63,7 +63,7 @@ namespace CompareXE
             string msg = "xml are equal";
             try
             {
-                CompareXElements.CompareDeep(e1, e2, opt);
+                CompareXE.CompareDeep(e1, e2, opt);
             }
             catch (Exception ex)
             {
