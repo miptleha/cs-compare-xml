@@ -1,4 +1,4 @@
-User friendly xml comparison class.  
+Compare two xml: identical they or not.  
 Not just say, that xml are equal or different, but say where is difference.  
 You can ignore (or not) order of subelements in element, ignore (or not) cases, ignore (or not) namespaces.  
 Very useful when need to check serialization/deserialization to xml.  
