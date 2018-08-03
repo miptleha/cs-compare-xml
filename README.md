@@ -1,14 +1,7 @@
-# csharp-compare-xml
-User friendly xml comparison class
-
-## Features
--   extend functionality of XNode.DeepEquals method
--   not just say, that xml are equal or different, but say where is difference
--   support namespaces
--   allow comparison that ignoring names cases (upper or lower)
--   nodes can be in the same order or any order (set settings how compare)
--   input xml in form of text or as XElement
--   very useful when need to check serialization/deserialization to xml
+User friendly xml comparison class.  
+Not just say, that xml are equal or different, but say where is difference.  
+You can ignore (or not) order of subelements in element, ignore (or not) cases, ignore (or not) namespaces.  
+Very useful when need to check serialization/deserialization to xml.  
 
 ## How to use
 ```csharp
