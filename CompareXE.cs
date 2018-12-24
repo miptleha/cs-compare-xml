@@ -45,8 +45,8 @@ namespace CompareXE
                     o2 = e1;
                 }
 
-                var a1List = o1.Attributes().Where(a => a.Name.NamespaceName != XNamespace.Xmlns.NamespaceName && a.Name.LocalName != "xmlns");
-                var a2List = o2.Attributes().Where(a => a.Name.NamespaceName != XNamespace.Xmlns.NamespaceName && a.Name.LocalName != "xmlns");
+                var a1List = o1.Attributes().Where(a => a.Name.NamespaceName != XNamespace.Xmlns.NamespaceName && a.Name.LocalName != "xmlns" && a.Name.LocalName != "schemaLocation");
+                var a2List = o2.Attributes().Where(a => a.Name.NamespaceName != XNamespace.Xmlns.NamespaceName && a.Name.LocalName != "xmlns" && a.Name.LocalName != "schemaLocation");
                 var a1Cnt = a1List.Count();
                 var a2Cnt = a2List.Count();
                 for (int i = 0; i < a1Cnt; i++)
